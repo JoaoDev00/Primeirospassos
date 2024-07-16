@@ -20,3 +20,10 @@ O projeto tem a finalidade de trazer os conhecimentos adiquiridos nas aulas do c
 
 
 ## Tecnologias utilizadas
+
+
+
+
+
+
+![Snake animation](https://github.com/JoaoDev00/JoaoDev00/blob/output/github-contribution-grid-snake.svg)
