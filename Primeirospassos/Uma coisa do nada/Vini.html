@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eu Te Amo</title>
+	<style>
+		body {
+			background-color: #f0f0f0;
+			font-family: Arial, sans-serif;
+		}
+		
+		.heart {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			animation: jump 2s infinite;
+		}
+		
+		@keyframes jump {
+			0% {
+				transform: translate(-50%, -50%) scale(1);
+			}
+			50% {
+				transform: translate(-50%, -50%) scale(1.2);
+			}
+			100% {
+				transform: translate(-50%, -50%) scale(1);
+			}
+		}
+		
+		.text {
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 36px;
+			color: #ff69b4;
+		}
+	</style>
+</head>
+<body>
+	<div class="heart">❤️</div>
+	<div class="text">Eu te amo</div>
+</body>
+</html>
